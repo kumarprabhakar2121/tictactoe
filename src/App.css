@@ -1,0 +1,31 @@
+body{
+  background-color: #333945;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+font-size: 35px;
+color: #ffffff;
+}
+
+.rgbtn{
+  font-size: 18px;
+  width: 100%;
+  display: block;
+}
+
+
+
+.box:hover{
+  background-color: rgba(139, 0, 139, 0.281);
+}
